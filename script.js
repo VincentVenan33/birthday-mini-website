@@ -341,3 +341,15 @@ musicBtn.addEventListener("click", async () => {
     musicBtn.textContent = "Musik tidak dapat diputar";
   }
 });
+
+/* -------------------------
+   TOMBOL TERAKHIR
+-------------------------- */
+$("#finalBtn").addEventListener("click", () => {
+  confettiBurst(160);
+
+  $("#finalText").textContent =
+    "Selamat Ulang Tahun, Mei ❤️ Semoga semua doa Kei untukmu satu per satu dapat terwujud.";
+
+  $("#finalBtn").textContent = "Aku Sayang Kamu, Mei ❤️";
+});
