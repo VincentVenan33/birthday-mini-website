@@ -1,0 +1,2 @@
+Masukkan photo1.jpg sampai photo6.jpg di folder ini.
+Opsional: masukkan music.mp3 untuk background music.

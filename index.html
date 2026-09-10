@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#080914" />
+    <meta
+      name="description"
+      content="A little birthday surprise for Angela Wahyu Septianti."
+    />
+    <title>Happy 23rd Birthday, Angela ❤️</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="locked">
+    <div class="stars"></div>
+
+    <!-- PIN -->
+    <section id="lockScreen" class="lock-screen">
+      <div class="card lock-card">
+        <div class="lock-icon">🔐</div>
+        <p class="eyebrow">AKSES PRIBADI</p>
+        <h1 class="lock-title">For My Luuvvv Only ❤️</h1>
+        <p class="muted">Sebuah kejutan kecil dari VV33 sedang menantimu.</p>
+
+        <div class="pin-box">
+          <input
+            type="password"
+            id="pinInput"
+            inputmode="numeric"
+            maxlength="6"
+            placeholder="Enter your birthday PIN"
+            autocomplete="off"
+          />
+          <button id="unlockBtn" class="btn">Buka Kunci ❤️</button>
+        </div>
+
+        <p id="pinMessage" class="pin-message"></p>
+        <p class="tiny">
+          Petunjuk: tanggal yang seharusnya hanya kamu yang tahu 👀
+        </p>
+      </div>
+    </section>
+
+    <!-- HERO -->
+    <header class="hero screen">
+      <div class="container hero-content">
+        <p class="eyebrow reveal">11 SEPTEMBER 2026</p>
+        <h1 class="hero-title gradient-text reveal">
+          Happy 23rd Birthday,<br />
+          <span>My Luuvvv ❤️</span>
+        </h1>
+        <p class="hero-subtitle reveal">
+          Aku sebenarnya bisa saja mengirimi kamu pesan ulang tahun biasa, tapi
+          aku ini Kei — jadi, sebagai gantinya, aku membuatkanmu situs web kecil
+          khusus untukmu.
+        </p>
+
+        <div class="hero-actions reveal">
+          <button class="btn" data-scroll="#birthdayMessage">
+            Buka Kejutanku ✨
+          </button>
+          <button class="btn btn-secondary" id="musicBtn">♫ Musik Mati</button>
+        </div>
+
+        <p class="scroll-hint reveal">Gulir pelan-pelan ↓</p>
+      </div>
+    </header>
+
+    <!-- BIRTHDAY -->
+    <main>
+      <section id="birthdayMessage" class="section">
+        <div class="container">
+          <div class="card birthday-card reveal">
+            <p class="eyebrow">BABAK 23</p>
+            <div class="age-number gradient-text">23</div>
+            <h2>Sebuah babak baru dimulai.</h2>
+            <p>
+              Happy 23rd birthday, Sayang. Semoga tahun ini membuatmu semakin
+              pintar, semakin kuat, semakin bahagia, dan semakin mendekatkanmu
+              pada segala hal yang kamu inginkan.
+            </p>
+            <p>
+              Semoga kamu cepat lulus, bisa mendapatkan IPK di atas 3,5,
+              mendapatkan pekerjaan yang lebih baik, selalu sehat, dan semoga
+              hubungan kita juga semakin langgeng.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SINCE -->
+      <section class="section compact-section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">CERITA KITA</p>
+            <h2>Sejak 30 September 2018.</h2>
+            <p>
+              Dari dua orang yang tidak selalu berpikiran sama, menjadi dua
+              orang yang entah bagaimana terus memilih satu sama lain.
+            </p>
+          </div>
+
+          <div class="stats-grid">
+            <article class="card stat-card reveal">
+              <span class="stat-value" id="daysTogether">0</span>
+              <span class="stat-label">hari bersama</span>
+            </article>
+
+            <article class="card stat-card reveal">
+              <span class="stat-value" id="yearsTogether">0</span>
+              <span class="stat-label">tahun cerita kita</span>
+            </article>
+
+            <article class="card stat-card reveal">
+              <span class="stat-value">∞</span>
+              <span class="stat-label"
+                >perdebatan tentang siapa yang benar 😂</span
+              >
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- TIMELINE -->
+      <section class="section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">SEJARAH SINGKAT</p>
+            <h2>VENELA</h2>
+            <p>
+              Tidak selalu selaras sepenuhnya. Namun, entah bagaimana, tetaplah
+              kami yang sesungguhnya.
+            </p>
+          </div>
+
+          <div class="timeline">
+            <article class="card timeline-item reveal">
+              <div class="timeline-date">30.09.2018</div>
+              <div>
+                <h3>Di sinilah “kami” bermula.</h3>
+                <p>
+                  Awal dari sebuah kisah yang tak satu pun dari kami berdua bisa
+                  sepenuhnya prediksi. Entah bagaimana, hari itu menjadi awal
+                  dari kenangan-kenangan yang kami lalui bersama selama
+                  bertahun-tahun.
+                </p>
+              </div>
+            </article>
+
+            <article class="card timeline-item reveal">
+              <div class="timeline-date">BERTUMBUH</div>
+              <div>
+                <h3>Pikiran yang berbeda, kisah yang sama.</h3>
+                <p>
+                  Kami tidak selalu sepaham, kami tidak selalu berpikiran sama,
+                  dan terkadang kami bisa sangat keras kepala. Namun entah
+                  bagaimana, kami masih bersama hingga kini.
+                </p>
+              </div>
+            </article>
+
+            <article class="card timeline-item reveal">
+              <div class="timeline-date">KEKACAUAN KITA</div>
+              <div>
+                <h3>Romantis, lucu, dan kadang-kadang mustahil.</h3>
+                <p>
+                  Ada saat-saat manis, saat-saat konyol, saat-saat
+                  menjengkelkan, dan saat-saat ketika salah satu dari kita
+                  mungkin pantas diberi waktu istirahat sejenak. Kebanyakan
+                  kamu. Mungkin. 😂
+                </p>
+              </div>
+            </article>
+
+            <article class="card timeline-item reveal">
+              <div class="timeline-date">11.09.2026</div>
+              <div>
+                <h3>Happy 23rd Birthday, My Luuvvv.</h3>
+                <p>
+                  Satu tahun lagi dalam hidupmu, dan satu ulang tahun lagi yang
+                  bisa aku rayakan bersama gadis yang masih kusebut Sayang.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- GALLERY -->
+      <section class="section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">KENANGAN KITA</p>
+            <h2>Foto-foto yang takkan pernah saya sesali menyimpannya.</h2>
+          </div>
+
+          <div class="gallery">
+            <figure class="card photo-card reveal" style="--r: -2deg">
+              <img
+                src="assets/photo1.JPG"
+                alt="Kenangan 1"
+                onerror="photoFallback(this, '01')"
+              />
+              <figcaption>Salah satu momen yang ingin aku kenang.</figcaption>
+            </figure>
+
+            <figure class="card photo-card reveal" style="--r: 1.4deg">
+              <img
+                src="assets/photo2.jpeg"
+                alt="Kenangan 2"
+                onerror="photoFallback(this, '02')"
+              />
+              <figcaption>Mei tetaplah Mei. ❤️</figcaption>
+            </figure>
+
+            <figure class="card photo-card reveal" style="--r: -1deg">
+              <img
+                src="assets/photo3.jpeg"
+                alt="Kenangan 3"
+                onerror="photoFallback(this, '03')"
+              />
+              <figcaption>
+                Mungkin sebelum kita berselisih pendapat tentang sesuatu.
+              </figcaption>
+            </figure>
+
+            <figure class="card photo-card reveal" style="--r: 1.7deg">
+              <img
+                src="assets/photo4.JPG"
+                alt="Kenangan 4"
+                onerror="photoFallback(this, '04')"
+              />
+              <figcaption>Kenangan yang layak diulang.</figcaption>
+            </figure>
+
+            <figure class="card photo-card reveal" style="--r: -1.4deg">
+              <img
+                src="assets/photo5.jpeg"
+                alt="Kenangan 5"
+                onerror="photoFallback(this, '05')"
+              />
+              <figcaption>Wajah bulat imut itu lagi. 😂❤️</figcaption>
+            </figure>
+
+            <figure class="card photo-card reveal" style="--r: 1deg">
+              <img
+                src="assets/photo6.jpeg"
+                alt="Kenangan 6"
+                style="object-position: 60% center"
+                onerror="photoFallback(this, '06')"
+              />
+              <figcaption>Semoga masih banyak kenangan berikutnya.</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- 23 THINGS -->
+      <section class="section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">23 HAL</p>
+            <h2>
+              23 hal tentang dirimu yang entah bagaimana menjadi favoritku.
+            </h2>
+            <p>Ada yang manis, ada yang konyol, semuanya sangat khas Mei.</p>
+          </div>
+
+          <div class="reasons" id="reasonsList"></div>
+        </div>
+      </section>
+
+      <!-- MINI GAME -->
+      <section class="section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">MINI GAME</p>
+            <h2>Tangkap hati VV33. ❤️</h2>
+            <p>Tangkap 5 hati untuk membuka surat rahasia.</p>
+          </div>
+
+          <div class="card game-card reveal">
+            <div class="game-bar">
+              <span>Hearts caught: <strong id="score">0</strong>/5</span>
+              <button class="btn btn-secondary" id="startGameBtn">
+                Mulai Permainan
+              </button>
+            </div>
+
+            <div id="gameArea" class="game-area">
+              <div class="game-placeholder">
+                <span>❤️</span>
+                <p>Press Mulai Permainan.</p>
+              </div>
+            </div>
+
+            <p id="gameResult" class="game-result"></p>
+          </div>
+        </div>
+      </section>
+
+      <!-- LETTER -->
+      <section class="section">
+        <div class="container">
+          <div class="card secret-card reveal">
+            <p class="eyebrow">FOR MEI, FROM VV33</p>
+            <h2>
+              Satu pesan yang tidak ingin saya biarkan tersembunyi di obrolan.
+            </h2>
+
+            <button id="openLetterBtn" class="btn" disabled>
+              🔒 Selesaikan permainan terlebih dahulu
+            </button>
+
+            <div id="secretLetter" class="secret-letter">
+              <p>Happy 23rd Birthday, Mei. ❤️</p>
+
+              <p>
+                Aku sebenarnya bisa saja cuma mengirim “Selamat Ulang Tahun,
+                Sayang” seperti biasa. Tapi karena aku Kei, rasanya kurang kalau
+                cuma begitu. Jadi aku bikin sesuatu yang sedikit lebih ribet
+                khusus untukmu.
+              </p>
+
+              <p>
+                Kita sudah bersama sejak 30 September 2018. Selama itu kita
+                tidak selalu sejalan. Kadang romantis, kadang lucu, kadang
+                sama-sama keras kepala, dan kadang aku juga bingung bagaimana
+                kita bisa tetap bertahan sejauh ini. Tapi mungkin justru itu
+                yang membuat cerita kita jadi milik kita sendiri.
+              </p>
+
+              <p>
+                Aku suka muka bulatmu, hidung pesekmu yang sering aku godain,
+                dan kelakuanmu yang kadang seperti anak kecil. Menyebalkan? Iya.
+                Tapi tetap jadi bagian dari Mei yang aku kenal dan aku sayang.
+              </p>
+
+              <p>
+                Di umur 23 ini, aku berharap kamu bisa semakin pintar, cepat
+                menyelesaikan kuliahmu, mendapatkan IPK di atas 3,5, dan setelah
+                itu mendapatkan pekerjaan yang jauh lebih baik. Aku juga
+                berharap kamu selalu sehat supaya bisa menikmati semua hasil
+                dari kerja kerasmu nanti.
+              </p>
+
+              <p>
+                Dan untuk kita, aku cuma berharap satu hal sederhana: semoga
+                kita bisa semakin dewasa, semakin mengerti satu sama lain, dan
+                semakin langgeng.
+              </p>
+
+              <p>
+                Kamu boleh tetap jadi Mei yang kadang seperti anak kecil. Tapi
+                sekarang anak kecilnya sudah 23 tahun. 😂❤️
+              </p>
+
+              <p>
+                Selamat Ulang Tahun, Sayang.<br />
+                I love you, Mei.<br /><br />
+                — VV33 ❤️
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FINAL -->
+      <section class="section final-section">
+        <div class="container">
+          <div class="card final-card reveal">
+            <span class="gift">🎁</span>
+            <p class="eyebrow">SATU KLIK TERAKHIR</p>
+            <h2>Happy 23rd Birthday, Angela Wahyu Septianti.</h2>
+            <p>
+              Apa pun yang akan terjadi selanjutnya, semoga tahun ini memberimu
+              banyak alasan untuk bangga pada dirimu sendiri.
+            </p>
+            <button class="btn" id="finalBtn">
+              Ketuk untuk Keajaiban Ulang Tahun ✨
+            </button>
+            <p id="finalText" class="final-text"></p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      Dibuat dengan ❤️, CSS, JavaScript, dan usaha ekstra dari VV33.
+    </footer>
+
+    <!-- Optional background music -->
+    <audio id="bgMusic" loop preload="none">
+      <source src="assets/music.mp3" type="audio/mpeg" />
+    </audio>
+
+    <script src="script.js"></script>
+  </body>
+</html>
