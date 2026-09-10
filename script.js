@@ -47,7 +47,7 @@ async function unlockSite() {
 
   if (input.value.trim() === CONFIG.pin) {
     message.style.color = "var(--green)";
-    message.textContent = "Akses berhasil. Selamat Ulang Tahun, Mei ❤️";
+    message.textContent = "Akses berhasil. Selamat Ulang Tahun, My Luuvvv ❤️";
 
     // Mulai musik dari menit 3:00
     try {
