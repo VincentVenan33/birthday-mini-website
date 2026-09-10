@@ -349,7 +349,7 @@ $("#finalBtn").addEventListener("click", () => {
   confettiBurst(160);
 
   $("#finalText").textContent =
-    "Selamat Ulang Tahun, Mei ❤️ Semoga semua doa Kei untukmu satu per satu dapat terwujud.";
+    "Selamat Ulang Tahun, My Luuvvv ❤️ Semoga semua doa VV33 untukmu satu per satu dapat terwujud.";
 
-  $("#finalBtn").textContent = "Aku Sayang Kamu, Mei ❤️";
+  $("#finalBtn").textContent = "Aku Sayang Kamu, My Luuvvv ❤️";
 });
